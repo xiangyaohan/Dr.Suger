@@ -1,10 +1,12 @@
-# 欢迎使用你的秒哒应用代码包
-秒哒应用链接
-    URL:https://www.miaoda.cn/projects/app-8hw3c8pteqrl
+# 糖博士——具备长时记忆的多Agent协同对话式【血糖健康管理助手】
 
-## 介绍
+## 项目声明
+1、目前本应用已经部署到了线上，详情请点击链接体验：https://app-8hw3c8pteqrl.appmiaoda.com
+2、项目完全基于【百度秒哒】开发，这款Vibe Coding工具的技术生态很封闭，下载原始代码需要大量的Token，我们为了节约使用成本只下载了最终版本commit到Github，所以只有一个commit记录，但已经在【百度秒哒】公开了创建过程，我们能够证明这个项目是在本次黑客松期间从0到1搭建起来的。
 
-血糖健康管理助手是一款以自然语言对话为核心交互方式的智能健康管理应用。用户通过与AI助手对话完成血糖数据记录、分析、咨询等健康管理任务。背后由多个专业Agent协同工作，提供精准、及时、个性化的血糖管理支持。
+## 项目介绍
+
+《糖博士》是一款具备长时记忆的多Agent协同对话式【血糖健康管理助手】，面向中国全年龄段的糖尿病患者；瞄准了现有主流AI健康助手缺乏人情味、专业术语难懂、无长时记忆等痛点，以兼具专业性与情感支持的对话Agent为主导，同步构建了包含数据记录、即时分析、教育科普、情感支持、长时记忆这5大Agent为辅助的，一个整合性的多Agent协同工作流。 整个项目的商业计划书详见：https://ai.feishu.cn/wiki/M81SwtrjniZPa1kxwI1cIcjKnhb
 
 ## 核心功能
 
@@ -50,7 +52,7 @@
 
 ## 设计特色
 
-- **温暖的浅蓝色主色调**：营造专业且温馨的健康氛围
+- **温暖的浅紫色主色调**：营造专业且温馨的健康氛围
 - **圆润的设计风格**：采用圆角设计和柔和的阴影层次
 - **响应式布局**：完美适配桌面端和移动端
 - **卡片式布局**：信息层次清晰，视觉舒适
@@ -156,63 +158,3 @@
 ## 技术栈
 
 Vite、TypeScript、React、Supabase
-
-## 本地开发
-
-### 如何在本地编辑代码？
-
-您可以选择 [VSCode](https://code.visualstudio.com/Download) 或者您常用的任何 IDE 编辑器，唯一的要求是安装 Node.js 和 npm.
-
-### 环境要求
-
-```
-# Node.js ≥ 20
-# npm ≥ 10
-例如：
-# node -v   # v20.18.3
-# npm -v    # 10.8.2
-```
-
-具体安装步骤如下：
-
-### 在 Windows 上安装 Node.js
-
-```
-# Step 1: 访问Node.js官网：https://nodejs.org/，点击下载后，会根据你的系统自动选择合适的版本（32位或64位）。
-# Step 2: 运行安装程序：下载完成后，双击运行安装程序。
-# Step 3: 完成安装：按照安装向导完成安装过程。
-# Step 4: 验证安装：在命令提示符（cmd）或IDE终端（terminal）中输入 node -v 和 npm -v 来检查 Node.js 和 npm 是否正确安装。
-```
-
-### 在 macOS 上安装 Node.js
-
-```
-# Step 1: 使用Homebrew安装（推荐方法）：打开终端。输入命令brew install node并回车。如果尚未安装Homebrew，需要先安装Homebrew，
-可以通过在终端中运行如下命令来安装：
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-或者使用官网安装程序：访问Node.js官网。下载macOS的.pkg安装包。打开下载的.pkg文件，按照提示完成安装。
-# Step 2: 验证安装：在命令提示符（cmd）或IDE终端（terminal）中输入 node -v 和 npm -v 来检查 Node.js 和 npm 是否正确安装。
-```
-
-### 安装完后按照如下步骤操作：
-
-```
-# Step 1: 下载代码包
-# Step 2: 解压代码包
-# Step 3: 用IDE打开代码包，进入代码目录
-# Step 4: IDE终端输入命令行，安装依赖：npm i
-# Step 5: IDE终端输入命令行，启动开发服务器：npm run dev -- --host 127.0.0.1
-```
-
-### 如何开发后端服务？
-
-配置环境变量，安装相关依赖
-如需使用数据库，请使用 supabase 官方版本或自行部署开源版本的 Supabase
-
-### 如何配置应用中的三方 API？
-
-具体三方 API 调用方法，请参考帮助文档：[源码导出](https://cloud.baidu.com/doc/MIAODA/s/Xmewgmsq7)，了解更多详细内容。
-
-## 了解更多
-
-您也可以查看帮助文档：[源码导出](https://cloud.baidu.com/doc/MIAODA/s/Xmewgmsq7)，了解更多详细内容。
